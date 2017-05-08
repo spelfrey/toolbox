@@ -1,0 +1,11 @@
+Initial build
+docker-compose build
+
+To run the full app
+docker-compose up web
+
+To run rspec
+docker-compose run web rspec
+
+To get on the console
+docker-compose run web /bin/bash
